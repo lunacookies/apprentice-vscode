@@ -24,6 +24,8 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
 
     t.a([s("function"), s("method")], p.yellow);
 
+    t.a([s("macro"), s("derive")], p.aqua);
+
     t.a([s("comment")], p.light_grey);
 }
 

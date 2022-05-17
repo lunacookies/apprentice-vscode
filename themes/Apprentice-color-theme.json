@@ -25,6 +25,12 @@
         "method": {
             "foreground": "#FFFFAF"
         },
+        "macro": {
+            "foreground": "#5F8787"
+        },
+        "derive": {
+            "foreground": "#5F8787"
+        },
         "comment": {
             "foreground": "#6C6C6C"
         }
