@@ -7,6 +7,12 @@
         "keyword": {
             "foreground": "#87AFD7"
         },
+        "function": {
+            "foreground": "#FFFFAF"
+        },
+        "method": {
+            "foreground": "#FFFFAF"
+        },
         "comment": {
             "foreground": "#6C6C6C"
         }

@@ -18,6 +18,8 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
 fn editor(t: &mut ThemeBuilder, p: &Palette) {
     t.a([s("keyword")], p.light_blue);
 
+    t.a([s("function"), s("method")], p.yellow);
+
     t.a([s("comment")], p.light_grey);
 }
 
