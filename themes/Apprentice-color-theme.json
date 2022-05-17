@@ -6,6 +6,9 @@
     "semanticTokenColors": {
         "keyword": {
             "foreground": "#87AFD7"
+        },
+        "comment": {
+            "foreground": "#6C6C6C"
         }
     },
     "colors": {
