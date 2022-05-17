@@ -7,6 +7,15 @@
         "keyword": {
             "foreground": "#87AFD7"
         },
+        "number": {
+            "foreground": "#FF8700"
+        },
+        "boolean": {
+            "foreground": "#FF8700"
+        },
+        "character": {
+            "foreground": "#FF8700"
+        },
         "string": {
             "foreground": "#87AF87"
         },
