@@ -1,0 +1,12 @@
+// Do not edit directly; this file is generated.
+{
+    "name": "Apprentice",
+    "tokenColors": [],
+    "semanticHighlighting": true,
+    "semanticTokenColors": {},
+    "colors": {
+        "foreground": "#BCBCBC",
+        "editor.foreground": "#BCBCBC",
+        "editor.background": "#262626"
+    }
+}

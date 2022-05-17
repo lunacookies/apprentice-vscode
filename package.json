@@ -1,0 +1,26 @@
+{
+  "name": "apprentice",
+  "displayName": "Apprentice",
+  "description": "romainl/Apprentice ported to VS Code",
+  "license": "MIT",
+  "publisher": "arzg",
+  "repository": {
+    "url": "https://github.com/arzg/apprentice-vscode"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Apprentice",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Apprentice-color-theme.json"
+      }
+    ]
+  }
+}

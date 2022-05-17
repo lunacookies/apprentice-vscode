@@ -1,0 +1,9 @@
+[package]
+edition = "2021"
+name = "apprentice-vscode"
+version = "0.1.0"
+
+[dependencies]
+anyhow = "1.0"
+mottle = "0.5.0"
+tincture = "1.0"
