@@ -7,6 +7,9 @@
         "keyword": {
             "foreground": "#87AFD7"
         },
+        "string": {
+            "foreground": "#87AF87"
+        },
         "function": {
             "foreground": "#FFFFAF"
         },
