@@ -1,4 +1,4 @@
-use mottle::dsl::ThemeBuilder;
+use mottle::dsl::{s, ThemeBuilder};
 
 fn main() -> anyhow::Result<()> {
     let mut theme_builder = ThemeBuilder::default();
@@ -15,7 +15,9 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
     t.w(["editor.background"], p.darker_grey);
 }
 
-fn editor(t: &mut ThemeBuilder, p: &Palette) {}
+fn editor(t: &mut ThemeBuilder, p: &Palette) {
+    t.a([s("keyword")], p.light_blue);
+}
 
 struct Palette {
     almost_black: u32,

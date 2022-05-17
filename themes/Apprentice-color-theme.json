@@ -3,7 +3,11 @@
     "name": "Apprentice",
     "tokenColors": [],
     "semanticHighlighting": true,
-    "semanticTokenColors": {},
+    "semanticTokenColors": {
+        "keyword": {
+            "foreground": "#87AFD7"
+        }
+    },
     "colors": {
         "foreground": "#BCBCBC",
         "editor.foreground": "#BCBCBC",
