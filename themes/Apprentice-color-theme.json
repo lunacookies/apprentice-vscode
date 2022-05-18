@@ -90,6 +90,7 @@
         },
         {
             "scope": [
+                "entity.name.function.macro",
                 "keyword.control.directive",
                 "keyword.control.at-rule",
                 "variable.scss"

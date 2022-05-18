@@ -162,6 +162,7 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
         [
             s("macro"),
             s("*.attribute"),
+            tm("entity.name.function.macro"),
             tm("keyword.control.directive"),
             tm("keyword.control.at-rule"),
             tm("variable.scss"),
