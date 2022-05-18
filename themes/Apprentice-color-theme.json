@@ -84,5 +84,7 @@
         "statusBar.debuggingBackground": "#87875F",
         "editorLineNumber.foreground": "#6C6C6C",
         "editorLineNumber.activeForeground": "#5FAFAF",
+        "editor.lineHighlightBackground": "#303030",
+        "editorGutter.background": "#1C1C1C"
     }
 }
