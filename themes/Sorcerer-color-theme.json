@@ -17,7 +17,13 @@
         {
             "scope": [
                 "constant",
-                "keyword.other.unit"
+                "keyword.other.unit",
+                "string.quoted.single.char",
+                "string.quoted.single.c",
+                "string.quoted.single.cpp",
+                "string.quoted.single.java",
+                "string.quoted.single.cs",
+                "string.quoted.rune.go"
             ],
             "settings": {
                 "foreground": "#CC8800"

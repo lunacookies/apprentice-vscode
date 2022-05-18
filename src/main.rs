@@ -101,6 +101,12 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
             s("variable.constant"),
             tm("constant"),
             tm("keyword.other.unit"),
+            tm("string.quoted.single.char"),
+            tm("string.quoted.single.c"),
+            tm("string.quoted.single.cpp"),
+            tm("string.quoted.single.java"),
+            tm("string.quoted.single.cs"),
+            tm("string.quoted.rune.go"),
         ],
         p.orange,
     );
