@@ -33,7 +33,6 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
     t.w(["editorLineNumber.activeForeground"], p.light_aqua);
 
     t.w(["editor.lineHighlightBackground"], p.dark_grey);
-    t.w(["editorGutter.background"], p.almost_black);
 }
 
 fn editor(t: &mut ThemeBuilder, p: &Palette) {
