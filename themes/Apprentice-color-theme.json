@@ -34,6 +34,33 @@
         "method": {
             "foreground": "#FFFFAF"
         },
+        "type": {
+            "foreground": "#8787AF"
+        },
+        "class": {
+            "foreground": "#8787AF"
+        },
+        "struct": {
+            "foreground": "#8787AF"
+        },
+        "enum": {
+            "foreground": "#8787AF"
+        },
+        "interface": {
+            "foreground": "#8787AF"
+        },
+        "union": {
+            "foreground": "#8787AF"
+        },
+        "typeParameter": {
+            "foreground": "#8787AF"
+        },
+        "typeAlias": {
+            "foreground": "#8787AF"
+        },
+        "builtinType": {
+            "foreground": "#8787AF"
+        },
         "macro": {
             "foreground": "#5F8787"
         },

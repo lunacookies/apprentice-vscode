@@ -25,6 +25,21 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
 
     t.a([s("function"), s("method")], p.yellow);
 
+    t.a(
+        [
+            s("type"),
+            s("class"),
+            s("struct"),
+            s("enum"),
+            s("interface"),
+            s("union"),
+            s("typeParameter"),
+            s("typeAlias"),
+            s("builtinType"),
+        ],
+        p.light_purple,
+    );
+
     t.a([s("macro"), s("derive")], p.aqua);
 
     t.a([s("comment")], p.light_grey);
