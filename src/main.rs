@@ -38,6 +38,13 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
     t.w(["list.hoverBackground"], (0xFFFFFF, 0x10));
     t.w(["editorWidget.background"], p.dark_grey);
 
+    t.w(["input.placeholderForeground"], p.medium_grey);
+    t.w(["input.background", "checkbox.background"], p.almost_black);
+    t.w(["input.border", "checkbox.border"], p.grey);
+    t.w(["button.foreground"], p.white);
+    t.w(["button.background"], p.grey);
+    t.w(["button.hoverBackground"], p.blue);
+
     t.w(["editor.foldBackground"], p.almost_black);
 
     t.w(["terminal.foreground"], p.lighter_grey);
