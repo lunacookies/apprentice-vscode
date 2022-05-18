@@ -1,7 +1,121 @@
 // Do not edit directly; this file is generated.
 {
     "name": "Apprentice",
-    "tokenColors": [],
+    "tokenColors": [
+        {
+            "scope": [
+                "keyword",
+                "storage",
+                "keyword.type.go",
+                "punctuation.separator"
+            ],
+            "settings": {
+                "foreground": "#87AFD7"
+            }
+        },
+        {
+            "scope": [
+                "constant",
+                "keyword.other.unit"
+            ],
+            "settings": {
+                "foreground": "#FF8700"
+            }
+        },
+        {
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#87AF87"
+            }
+        },
+        {
+            "scope": [
+                "constant.character.escape",
+                "constant.other.placeholder",
+                "constant.character.format.placeholder",
+                "punctuation.section.embedded",
+                "punctuation.definition.template-expression",
+                "punctuation.definition.interpolation"
+            ],
+            "settings": {
+                "foreground": "#5F875F"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#FFFFAF"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type",
+                "keyword.type",
+                "storage.type.built-in",
+                "storage.type.java",
+                "storage.type.numeric.go",
+                "storage.type.byte.go",
+                "storage.type.boolean.go",
+                "storage.type.string.go",
+                "storage.type.uintptr.go",
+                "storage.type.error.go",
+                "storage.type.rune.go",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#8787AF"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.directive",
+                "keyword.control.at-rule",
+                "variable.scss"
+            ],
+            "settings": {
+                "foreground": "#5F8787"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type.lifetime",
+                "punctuation.definition.lifetime"
+            ],
+            "settings": {
+                "foreground": "#5F875F"
+            }
+        },
+        {
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#6C6C6C"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag",
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#87AFD7"
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#8787AF"
+            }
+        }
+    ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "keyword": {

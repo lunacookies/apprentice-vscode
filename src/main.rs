@@ -1,4 +1,4 @@
-use mottle::dsl::{s, ThemeBuilder};
+use mottle::dsl::{s, tm, ThemeBuilder};
 
 fn main() -> anyhow::Result<()> {
     let mut theme_builder = ThemeBuilder::default();
@@ -80,14 +80,46 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
 }
 
 fn editor(t: &mut ThemeBuilder, p: &Palette) {
-    t.a([s("keyword"), s("operator")], p.light_blue);
+    t.a(
+        [
+            s("keyword"),
+            s("operator"),
+            tm("keyword"),
+            tm("storage"),
+            tm("keyword.type.go"),
+            tm("punctuation.separator"),
+        ],
+        p.light_blue,
+    );
 
-    t.a([s("number"), s("boolean"), s("character"), s("variable.constant")], p.orange);
+    t.a(
+        [
+            s("number"),
+            s("boolean"),
+            s("character"),
+            s("variable.constant"),
+            tm("constant"),
+            tm("keyword.other.unit"),
+        ],
+        p.orange,
+    );
 
-    t.a([s("string")], p.light_green);
-    t.a([s("formatSpecifier"), s("escapeSequence")], p.green);
+    t.a([s("string"), tm("string")], p.light_green);
+    t.a(
+        [
+            s("formatSpecifier"),
+            s("escapeSequence"),
+            tm("constant.character.escape"),
+            tm("constant.other.placeholder"),
+            tm("constant.character.format.placeholder"),
+            tm("punctuation.section.embedded"),
+            tm("punctuation.definition.template-expression"),
+            tm("punctuation.definition.interpolation"),
+        ],
+        p.green,
+    );
 
-    t.a([s("function"), s("method")], p.yellow);
+    t.a([s("function"), s("method"), tm("entity.name.function"), tm("support.function")], p.yellow);
 
     t.a(
         [
@@ -100,15 +132,42 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
             s("typeParameter"),
             s("typeAlias"),
             s("builtinType"),
+            tm("entity.name.type"),
+            tm("keyword.type"),
+            tm("storage.type.built-in"),
+            tm("storage.type.java"),
+            tm("storage.type.numeric.go"),
+            tm("storage.type.byte.go"),
+            tm("storage.type.boolean.go"),
+            tm("storage.type.string.go"),
+            tm("storage.type.uintptr.go"),
+            tm("storage.type.error.go"),
+            tm("storage.type.rune.go"),
+            tm("support.type"),
         ],
         p.light_purple,
     );
 
-    t.a([s("macro"), s("*.attribute")], p.aqua);
+    t.a(
+        [
+            s("macro"),
+            s("*.attribute"),
+            tm("keyword.control.directive"),
+            tm("keyword.control.at-rule"),
+            tm("variable.scss"),
+        ],
+        p.aqua,
+    );
 
-    t.a([s("lifetime")], p.green);
+    t.a(
+        [s("lifetime"), tm("entity.name.type.lifetime"), tm("punctuation.definition.lifetime")],
+        p.green,
+    );
 
-    t.a([s("comment")], p.light_grey);
+    t.a([s("comment"), tm("comment")], p.light_grey);
+
+    t.a([tm("entity.name.tag"), tm("punctuation.definition.tag")], p.light_blue);
+    t.a([tm("entity.other.attribute-name")], p.light_purple);
 }
 
 struct Palette {
