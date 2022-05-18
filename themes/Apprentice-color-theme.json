@@ -90,6 +90,23 @@
         "statusBar.debuggingBackground": "#87875F",
         "editorLineNumber.foreground": "#6C6C6C",
         "editorLineNumber.activeForeground": "#5FAFAF",
-        "editor.lineHighlightBackground": "#303030"
+        "editor.lineHighlightBackground": "#303030",
+        "terminal.foreground": "#BCBCBC",
+        "terminal.ansiBlack": "#1C1C1C",
+        "terminal.ansiRed": "#AF5F5F",
+        "terminal.ansiGreen": "#5F875F",
+        "terminal.ansiYellow": "#87875F",
+        "terminal.ansiBlue": "#5F87AF",
+        "terminal.ansiMagenta": "#5F5F87",
+        "terminal.ansiCyan": "#5F8787",
+        "terminal.ansiWhite": "#6C6C6C",
+        "terminal.ansiBrightBlack": "#444444",
+        "terminal.ansiBrightRed": "#FF8700",
+        "terminal.ansiBrightGreen": "#87AF87",
+        "terminal.ansiBrightYellow": "#FFFFAF",
+        "terminal.ansiBrightBlue": "#87AFD7",
+        "terminal.ansiBrightMagenta": "#8787AF",
+        "terminal.ansiBrightCyan": "#5FAFAF",
+        "terminal.ansiBrightWhite": "#FFFFFF"
     }
 }

@@ -29,6 +29,24 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
     t.w(["editorLineNumber.activeForeground"], p.light_aqua);
 
     t.w(["editor.lineHighlightBackground"], p.dark_grey);
+
+    t.w(["terminal.foreground"], p.lighter_grey);
+    t.w(["terminal.ansiBlack"], p.almost_black);
+    t.w(["terminal.ansiRed"], p.red);
+    t.w(["terminal.ansiGreen"], p.green);
+    t.w(["terminal.ansiYellow"], p.ocre);
+    t.w(["terminal.ansiBlue"], p.blue);
+    t.w(["terminal.ansiMagenta"], p.purple);
+    t.w(["terminal.ansiCyan"], p.aqua);
+    t.w(["terminal.ansiWhite"], p.light_grey);
+    t.w(["terminal.ansiBrightBlack"], p.grey);
+    t.w(["terminal.ansiBrightRed"], p.orange);
+    t.w(["terminal.ansiBrightGreen"], p.light_green);
+    t.w(["terminal.ansiBrightYellow"], p.yellow);
+    t.w(["terminal.ansiBrightBlue"], p.light_blue);
+    t.w(["terminal.ansiBrightMagenta"], p.light_purple);
+    t.w(["terminal.ansiBrightCyan"], p.light_aqua);
+    t.w(["terminal.ansiBrightWhite"], p.white);
 }
 
 fn editor(t: &mut ThemeBuilder, p: &Palette) {
