@@ -22,6 +22,12 @@
         "string": {
             "foreground": "#87AF87"
         },
+        "formatSpecifier": {
+            "foreground": "#5F875F"
+        },
+        "escapeSequence": {
+            "foreground": "#5F875F"
+        },
         "function": {
             "foreground": "#FFFFAF"
         },
