@@ -73,6 +73,15 @@
         },
         {
             "scope": [
+                "variable.language",
+                "keyword.other.this"
+            ],
+            "settings": {
+                "foreground": "#6689AD"
+            }
+        },
+        {
+            "scope": [
                 "keyword.control.directive",
                 "keyword.control.at-rule",
                 "variable.scss"
@@ -177,6 +186,9 @@
         },
         "builtinType": {
             "foreground": "#7E8AA2"
+        },
+        "selfKeyword": {
+            "foreground": "#6689AD"
         },
         "macro": {
             "foreground": "#528B8B"

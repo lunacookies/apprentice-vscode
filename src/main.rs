@@ -148,6 +148,8 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
         p.light_purple,
     );
 
+    t.a([s("selfKeyword"), tm("variable.language"), tm("keyword.other.this")], p.blue);
+
     t.a(
         [
             s("macro"),
