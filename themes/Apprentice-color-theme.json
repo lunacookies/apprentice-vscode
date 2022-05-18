@@ -7,6 +7,9 @@
         "keyword": {
             "foreground": "#87AFD7"
         },
+        "operator": {
+            "foreground": "#87AFD7"
+        },
         "number": {
             "foreground": "#FF8700"
         },
