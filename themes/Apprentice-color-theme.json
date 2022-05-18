@@ -91,6 +91,7 @@
         "editorLineNumber.foreground": "#6C6C6C",
         "editorLineNumber.activeForeground": "#5FAFAF",
         "editor.lineHighlightBackground": "#303030",
+        "editor.foldBackground": "#1C1C1C",
         "terminal.foreground": "#BCBCBC",
         "terminal.ansiBlack": "#1C1C1C",
         "terminal.ansiRed": "#AF5F5F",

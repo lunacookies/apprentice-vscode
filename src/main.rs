@@ -30,6 +30,8 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
 
     t.w(["editor.lineHighlightBackground"], p.dark_grey);
 
+    t.w(["editor.foldBackground"], p.almost_black);
+
     t.w(["terminal.foreground"], p.lighter_grey);
     t.w(["terminal.ansiBlack"], p.almost_black);
     t.w(["terminal.ansiRed"], p.red);
