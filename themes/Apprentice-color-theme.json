@@ -77,6 +77,10 @@
     "colors": {
         "foreground": "#BCBCBC",
         "editor.foreground": "#BCBCBC",
-        "editor.background": "#262626"
+        "editor.background": "#262626",
+        "statusBar.foreground": "#262626",
+        "statusBar.background": "#87875F",
+        "statusBar.noFolderBackground": "#87875F",
+        "statusBar.debuggingBackground": "#87875F"
     }
 }

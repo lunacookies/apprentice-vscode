@@ -13,6 +13,16 @@ fn main() -> anyhow::Result<()> {
 fn ui(t: &mut ThemeBuilder, p: &Palette) {
     t.w(["foreground", "editor.foreground"], p.lighter_grey);
     t.w(["editor.background"], p.darker_grey);
+
+    t.w(["statusBar.foreground"], p.darker_grey);
+    t.w(
+        [
+            "statusBar.background",
+            "statusBar.noFolderBackground",
+            "statusBar.debuggingBackground",
+        ],
+        p.ocre,
+    );
 }
 
 fn editor(t: &mut ThemeBuilder, p: &Palette) {
