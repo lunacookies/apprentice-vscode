@@ -23,6 +23,9 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
         ],
         p.ocre,
     );
+
+    t.w(["editorLineNumber.foreground"], p.light_grey);
+    t.w(["editorLineNumber.activeForeground"], p.light_aqua);
 }
 
 fn editor(t: &mut ThemeBuilder, p: &Palette) {
