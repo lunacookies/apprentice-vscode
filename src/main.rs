@@ -14,6 +14,9 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
     t.w(["foreground", "editor.foreground"], p.lighter_grey);
     t.w(["editor.background"], p.darker_grey);
 
+    t.w(["editorCursor.foreground", "terminalCursor.foreground"], p.lighter_grey);
+    t.w(["editorCursor.background", "terminalCursor.background"], p.darker_grey);
+
     t.w(["sideBar.background", "activityBar.background"], p.almost_black);
 
     t.w(["statusBar.foreground"], p.darker_grey);
