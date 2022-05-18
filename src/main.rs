@@ -98,7 +98,7 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
         p.light_purple,
     );
 
-    t.a([s("macro"), s("derive")], p.aqua);
+    t.a([s("macro"), s("*.attribute")], p.aqua);
 
     t.a([s("lifetime")], p.green);
 
