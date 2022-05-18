@@ -76,7 +76,7 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
 fn editor(t: &mut ThemeBuilder, p: &Palette) {
     t.a([s("keyword"), s("operator")], p.light_blue);
 
-    t.a([s("number"), s("boolean"), s("character")], p.orange);
+    t.a([s("number"), s("boolean"), s("character"), s("variable.constant")], p.orange);
 
     t.a([s("string")], p.light_green);
     t.a([s("formatSpecifier"), s("escapeSequence")], p.green);

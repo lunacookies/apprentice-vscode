@@ -19,6 +19,9 @@
         "character": {
             "foreground": "#FF8700"
         },
+        "variable.constant": {
+            "foreground": "#FF8700"
+        },
         "string": {
             "foreground": "#87AF87"
         },
