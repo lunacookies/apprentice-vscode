@@ -107,6 +107,8 @@
         "button.background": "#444444",
         "button.hoverBackground": "#5F87AF",
         "editor.foldBackground": "#1C1C1C",
+        "editorInlayHint.foreground": "#585858",
+        "editorInlayHint.background": "#00000000",
         "editorWhitespace.foreground": "#585858",
         "terminal.foreground": "#BCBCBC",
         "terminal.ansiBlack": "#1C1C1C",

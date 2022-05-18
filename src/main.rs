@@ -47,6 +47,9 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
 
     t.w(["editor.foldBackground"], p.almost_black);
 
+    t.w(["editorInlayHint.foreground"], p.medium_grey);
+    t.w(["editorInlayHint.background"], (0x000000, 0x00));
+
     t.w(["editorWhitespace.foreground"], p.medium_grey);
 
     t.w(["terminal.foreground"], p.lighter_grey);
