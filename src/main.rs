@@ -142,6 +142,7 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
             tm("entity.name.type"),
             tm("keyword.type"),
             tm("storage.type.built-in"),
+            tm("storage.type.primitive"),
             tm("storage.type.java"),
             tm("storage.type.numeric.go"),
             tm("storage.type.byte.go"),
