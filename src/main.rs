@@ -57,6 +57,8 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
     t.w(["terminal.ansiBrightMagenta"], p.light_purple);
     t.w(["terminal.ansiBrightCyan"], p.light_aqua);
     t.w(["terminal.ansiBrightWhite"], p.white);
+
+    t.w(["focusBorder"], p.blue);
 }
 
 fn editor(t: &mut ThemeBuilder, p: &Palette) {

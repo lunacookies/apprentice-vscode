@@ -115,6 +115,7 @@
         "terminal.ansiBrightBlue": "#87AFD7",
         "terminal.ansiBrightMagenta": "#8787AF",
         "terminal.ansiBrightCyan": "#5FAFAF",
-        "terminal.ansiBrightWhite": "#FFFFFF"
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "focusBorder": "#5F87AF"
     }
 }
