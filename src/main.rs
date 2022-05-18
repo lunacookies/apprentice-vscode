@@ -88,6 +88,7 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
             tm("storage"),
             tm("keyword.type.go"),
             tm("punctuation.separator"),
+            tm("punctuation.definition.keyValue"),
         ],
         p.light_blue,
     );
@@ -170,6 +171,9 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
 
     t.a([tm("entity.name.tag"), tm("punctuation.definition.tag")], p.light_blue);
     t.a([tm("entity.other.attribute-name")], p.light_purple);
+
+    t.a([tm("meta.tag.table.toml"), tm("entity.other.attribute-name.table.toml")], p.white);
+    t.a([tm("entity.name.tag.toml")], p.blue);
 }
 
 struct Palette {

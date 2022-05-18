@@ -7,7 +7,8 @@
                 "keyword",
                 "storage",
                 "keyword.type.go",
-                "punctuation.separator"
+                "punctuation.separator",
+                "punctuation.definition.keyValue"
             ],
             "settings": {
                 "foreground": "#87AFD7"
@@ -122,6 +123,23 @@
             ],
             "settings": {
                 "foreground": "#8787AF"
+            }
+        },
+        {
+            "scope": [
+                "meta.tag.table.toml",
+                "entity.other.attribute-name.table.toml"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag.toml"
+            ],
+            "settings": {
+                "foreground": "#5F87AF"
             }
         }
     ],
