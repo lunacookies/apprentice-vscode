@@ -1,0 +1,135 @@
+// Do not edit directly; this file is generated.
+{
+    "name": "Sorcerer",
+    "tokenColors": [],
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "keyword": {
+            "foreground": "#90B0D1"
+        },
+        "operator": {
+            "foreground": "#90B0D1"
+        },
+        "number": {
+            "foreground": "#CC8800"
+        },
+        "boolean": {
+            "foreground": "#CC8800"
+        },
+        "character": {
+            "foreground": "#CC8800"
+        },
+        "variable.constant": {
+            "foreground": "#CC8800"
+        },
+        "string": {
+            "foreground": "#779B70"
+        },
+        "formatSpecifier": {
+            "foreground": "#719611"
+        },
+        "escapeSequence": {
+            "foreground": "#719611"
+        },
+        "function": {
+            "foreground": "#FAF4C6"
+        },
+        "method": {
+            "foreground": "#FAF4C6"
+        },
+        "type": {
+            "foreground": "#7E8AA2"
+        },
+        "class": {
+            "foreground": "#7E8AA2"
+        },
+        "struct": {
+            "foreground": "#7E8AA2"
+        },
+        "enum": {
+            "foreground": "#7E8AA2"
+        },
+        "interface": {
+            "foreground": "#7E8AA2"
+        },
+        "union": {
+            "foreground": "#7E8AA2"
+        },
+        "typeParameter": {
+            "foreground": "#7E8AA2"
+        },
+        "typeAlias": {
+            "foreground": "#7E8AA2"
+        },
+        "builtinType": {
+            "foreground": "#7E8AA2"
+        },
+        "macro": {
+            "foreground": "#528B8B"
+        },
+        "*.attribute": {
+            "foreground": "#528B8B"
+        },
+        "lifetime": {
+            "foreground": "#719611"
+        },
+        "comment": {
+            "foreground": "#6C6C6C"
+        }
+    },
+    "colors": {
+        "foreground": "#C2C2B0",
+        "editor.foreground": "#C2C2B0",
+        "editor.background": "#202020",
+        "editorCursor.foreground": "#C2C2B0",
+        "terminalCursor.foreground": "#C2C2B0",
+        "editorCursor.background": "#202020",
+        "terminalCursor.background": "#202020",
+        "sideBar.background": "#171717",
+        "activityBar.background": "#171717",
+        "statusBar.foreground": "#202020",
+        "statusBar.background": "#808070",
+        "statusBar.noFolderBackground": "#808070",
+        "statusBar.debuggingBackground": "#808070",
+        "editorLineNumber.foreground": "#6C6C6C",
+        "editorLineNumber.activeForeground": "#58B8B8",
+        "editor.lineHighlightBackground": "#2A2A2A",
+        "list.activeSelectionForeground": "#202020",
+        "list.focusHighlightForeground": "#171717",
+        "list.highlightForeground": "#C2C2B0",
+        "list.activeSelectionBackground": "#528B8B",
+        "list.inactiveSelectionBackground": "#444444",
+        "list.hoverBackground": "#FFFFFF10",
+        "editorWidget.background": "#2A2A2A",
+        "input.placeholderForeground": "#585858",
+        "input.background": "#171717",
+        "checkbox.background": "#171717",
+        "input.border": "#444444",
+        "checkbox.border": "#444444",
+        "button.foreground": "#FFFFE8",
+        "button.background": "#444444",
+        "button.hoverBackground": "#6689AD",
+        "editor.foldBackground": "#171717",
+        "editorInlayHint.foreground": "#585858",
+        "editorInlayHint.background": "#00000000",
+        "editorWhitespace.foreground": "#585858",
+        "terminal.foreground": "#C2C2B0",
+        "terminal.ansiBlack": "#171717",
+        "terminal.ansiRed": "#FF6A6A",
+        "terminal.ansiGreen": "#719611",
+        "terminal.ansiYellow": "#808070",
+        "terminal.ansiBlue": "#6689AD",
+        "terminal.ansiMagenta": "#5D6A85",
+        "terminal.ansiCyan": "#528B8B",
+        "terminal.ansiWhite": "#6C6C6C",
+        "terminal.ansiBrightBlack": "#444444",
+        "terminal.ansiBrightRed": "#CC8800",
+        "terminal.ansiBrightGreen": "#779B70",
+        "terminal.ansiBrightYellow": "#FAF4C6",
+        "terminal.ansiBrightBlue": "#90B0D1",
+        "terminal.ansiBrightMagenta": "#7E8AA2",
+        "terminal.ansiBrightCyan": "#58B8B8",
+        "terminal.ansiBrightWhite": "#FFFFE8",
+        "focusBorder": "#6689AD"
+    }
+}

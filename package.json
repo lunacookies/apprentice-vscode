@@ -20,6 +20,11 @@
         "label": "Apprentice",
         "uiTheme": "vs-dark",
         "path": "./themes/Apprentice-color-theme.json"
+      },
+      {
+        "label": "Sorcerer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sorcerer-color-theme.json"
       }
     ]
   }

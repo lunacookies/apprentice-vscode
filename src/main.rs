@@ -2,9 +2,15 @@ use mottle::dsl::{s, ThemeBuilder};
 
 fn main() -> anyhow::Result<()> {
     let mut theme_builder = ThemeBuilder::default();
-    ui(&mut theme_builder, &Palette::default());
-    editor(&mut theme_builder, &Palette::default());
+    ui(&mut theme_builder, &Palette::APPRENTICE);
+    editor(&mut theme_builder, &Palette::APPRENTICE);
     let theme = theme_builder.build("Apprentice");
+    mottle::save_theme(&theme)?;
+
+    let mut theme_builder = ThemeBuilder::default();
+    ui(&mut theme_builder, &Palette::SORCERER);
+    editor(&mut theme_builder, &Palette::SORCERER);
+    let theme = theme_builder.build("Sorcerer");
     mottle::save_theme(&theme)?;
 
     Ok(())
@@ -132,33 +138,58 @@ struct Palette {
     DiffText: u32,
 }
 
-impl Default for Palette {
-    fn default() -> Self {
-        Self {
-            almost_black: 0x1c1c1c,
-            darker_grey: 0x262626,
-            dark_grey: 0x303030,
-            grey: 0x444444,
-            medium_grey: 0x585858,
-            light_grey: 0x6c6c6c,
-            lighter_grey: 0xbcbcbc,
-            white: 0xffffff,
-            purple: 0x5f5f87,
-            light_purple: 0x8787af,
-            green: 0x5f875f,
-            light_green: 0x87af87,
-            aqua: 0x5f8787,
-            light_aqua: 0x5fafaf,
-            blue: 0x5f87af,
-            light_blue: 0x87afd7,
-            red: 0xaf5f5f,
-            orange: 0xff8700,
-            ocre: 0x87875f,
-            yellow: 0xffffaf,
-            DiffAdd: 0x87afff,
-            DiffDelete: 0xffdf87,
-            DiffChange: 0xdfdfdf,
-            DiffText: 0xafafaf,
-        }
-    }
+impl Palette {
+    const APPRENTICE: Self = Self {
+        almost_black: 0x1c1c1c,
+        darker_grey: 0x262626,
+        dark_grey: 0x303030,
+        grey: 0x444444,
+        medium_grey: 0x585858,
+        light_grey: 0x6c6c6c,
+        lighter_grey: 0xbcbcbc,
+        white: 0xffffff,
+        purple: 0x5f5f87,
+        light_purple: 0x8787af,
+        green: 0x5f875f,
+        light_green: 0x87af87,
+        aqua: 0x5f8787,
+        light_aqua: 0x5fafaf,
+        blue: 0x5f87af,
+        light_blue: 0x87afd7,
+        red: 0xaf5f5f,
+        orange: 0xff8700,
+        ocre: 0x87875f,
+        yellow: 0xffffaf,
+        DiffAdd: 0x87afff,
+        DiffDelete: 0xffdf87,
+        DiffChange: 0xdfdfdf,
+        DiffText: 0xafafaf,
+    };
+
+    const SORCERER: Self = Self {
+        almost_black: 0x171717,
+        darker_grey: 0x202020,
+        dark_grey: 0x2a2a2a,
+        grey: 0x444444,
+        medium_grey: 0x585858,
+        light_grey: 0x6c6c6c,
+        lighter_grey: 0xc2c2b0,
+        white: 0xffffe8,
+        purple: 0x5d6a85,
+        light_purple: 0x7e8aa2,
+        green: 0x719611,
+        light_green: 0x779b70,
+        aqua: 0x528b8b,
+        light_aqua: 0x58b8b8,
+        blue: 0x6689ad,
+        light_blue: 0x90b0d1,
+        red: 0xff6a6a,
+        orange: 0xcc8800,
+        ocre: 0x808070,
+        yellow: 0xfaf4c6,
+        DiffAdd: 0x87afff,
+        DiffDelete: 0xffdf87,
+        DiffChange: 0xdfdfdf,
+        DiffText: 0xafafaf,
+    };
 }
