@@ -67,6 +67,9 @@
         "derive": {
             "foreground": "#5F8787"
         },
+        "lifetime": {
+            "foreground": "#5F875F"
+        },
         "comment": {
             "foreground": "#6C6C6C"
         }
