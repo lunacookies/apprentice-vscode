@@ -78,6 +78,8 @@
         "foreground": "#BCBCBC",
         "editor.foreground": "#BCBCBC",
         "editor.background": "#262626",
+        "sideBar.background": "#1C1C1C",
+        "activityBar.background": "#1C1C1C",
         "statusBar.foreground": "#262626",
         "statusBar.background": "#87875F",
         "statusBar.noFolderBackground": "#87875F",
