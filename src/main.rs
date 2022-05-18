@@ -174,6 +174,28 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
 
     t.a([tm("meta.tag.table.toml"), tm("entity.other.attribute-name.table.toml")], p.white);
     t.a([tm("entity.name.tag.toml")], p.blue);
+
+    t.a(
+        [
+            tm("punctuation.definition.heading.markdown"),
+            tm("punctuation.definition.raw.markdown"),
+            tm("punctuation.definition.markdown"),
+            tm("fenced_code.block.language.markdown"),
+        ],
+        p.green,
+    );
+    t.a([tm("markup.italic.markdown")], p.aqua);
+    t.a(
+        [
+            tm("punctuation.definition.list.begin.markdown"),
+            tm("punctuation.definition.quote.begin.markdown"),
+        ],
+        p.light_blue,
+    );
+    t.a([tm("entity.name.section.markdown")], p.white);
+    t.a([tm("string.other.link.title.markdown")], p.yellow);
+    t.a([tm("constant.other.reference.link.markdown")], p.light_purple);
+    t.a([tm("markup.underline.link.markdown")], p.orange);
 }
 
 struct Palette {
