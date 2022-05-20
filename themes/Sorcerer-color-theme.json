@@ -219,6 +219,18 @@
         "operator": {
             "foreground": "#90B0D1"
         },
+        "variable": {
+            "foreground": "#C2C2B0"
+        },
+        "parameter": {
+            "foreground": "#C2C2B0"
+        },
+        "property": {
+            "foreground": "#C2C2B0"
+        },
+        "enumMember": {
+            "foreground": "#C2C2B0"
+        },
         "number": {
             "foreground": "#CC8800"
         },

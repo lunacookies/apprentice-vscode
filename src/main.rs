@@ -93,6 +93,8 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
         p.light_blue,
     );
 
+    t.a([s("variable"), s("parameter"), s("property"), s("enumMember")], p.lighter_grey);
+
     t.a(
         [
             s("number"),
