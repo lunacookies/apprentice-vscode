@@ -66,7 +66,7 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
     t.w(["terminal.ansiBlue"], p.blue);
     t.w(["terminal.ansiMagenta"], p.purple);
     t.w(["terminal.ansiCyan"], p.aqua);
-    t.w(["terminal.ansiWhite"], p.light_grey);
+    t.w(["terminal.ansiWhite"], p.lighter_grey);
     t.w(["terminal.ansiBrightBlack"], p.grey);
     t.w(["terminal.ansiBrightRed"], p.orange);
     t.w(["terminal.ansiBrightGreen"], p.light_green);
