@@ -185,6 +185,9 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
     t.a([tm("meta.tag.table.toml"), tm("entity.other.attribute-name.table.toml")], p.white);
     t.a([tm("entity.name.tag.toml")], p.blue);
 
+    t.a([tm("markup.inserted")], p.light_green);
+    t.a([tm("markup.deleted")], p.red);
+
     t.a(
         [
             tm("punctuation.definition.heading.markdown"),

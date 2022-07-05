@@ -152,6 +152,22 @@
         },
         {
             "scope": [
+                "markup.inserted"
+            ],
+            "settings": {
+                "foreground": "#779B70"
+            }
+        },
+        {
+            "scope": [
+                "markup.deleted"
+            ],
+            "settings": {
+                "foreground": "#FF6A6A"
+            }
+        },
+        {
+            "scope": [
                 "punctuation.definition.heading.markdown",
                 "punctuation.definition.raw.markdown",
                 "punctuation.definition.markdown",
