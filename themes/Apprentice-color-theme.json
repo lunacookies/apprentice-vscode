@@ -315,6 +315,9 @@
         },
         "comment": {
             "foreground": "#6C6C6C"
+        },
+        "unresolvedReference": {
+            "foreground": "#BCBCBC"
         }
     },
     "colors": {

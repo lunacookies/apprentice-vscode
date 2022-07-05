@@ -209,6 +209,8 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
     t.a([tm("string.other.link.title.markdown")], p.yellow);
     t.a([tm("constant.other.reference.link.markdown")], p.light_purple);
     t.a([tm("markup.underline.link.markdown")], p.orange);
+
+    t.a([s("unresolvedReference")], p.lighter_grey);
 }
 
 struct Palette {
