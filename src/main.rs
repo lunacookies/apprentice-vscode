@@ -229,10 +229,6 @@ struct Palette {
     orange: u32,
     ocre: u32,
     yellow: u32,
-    DiffAdd: u32,
-    DiffDelete: u32,
-    DiffChange: u32,
-    DiffText: u32,
 }
 
 impl Palette {
@@ -257,10 +253,6 @@ impl Palette {
         orange: 0xff8700,
         ocre: 0x87875f,
         yellow: 0xffffaf,
-        DiffAdd: 0x87afff,
-        DiffDelete: 0xffdf87,
-        DiffChange: 0xdfdfdf,
-        DiffText: 0xafafaf,
     };
 
     const SORCERER: Self = Self {
@@ -284,9 +276,5 @@ impl Palette {
         orange: 0xcc8800,
         ocre: 0x808070,
         yellow: 0xfaf4c6,
-        DiffAdd: 0x87afff,
-        DiffDelete: 0xffdf87,
-        DiffChange: 0xdfdfdf,
-        DiffText: 0xafafaf,
     };
 }
