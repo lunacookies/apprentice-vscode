@@ -163,7 +163,7 @@
                 "markup.deleted"
             ],
             "settings": {
-                "foreground": "#FF6A6A"
+                "foreground": "#996666"
             }
         },
         {
@@ -355,7 +355,7 @@
         "editorWhitespace.foreground": "#585858",
         "terminal.foreground": "#C2C2B0",
         "terminal.ansiBlack": "#171717",
-        "terminal.ansiRed": "#FF6A6A",
+        "terminal.ansiRed": "#996666",
         "terminal.ansiGreen": "#719611",
         "terminal.ansiYellow": "#808070",
         "terminal.ansiBlue": "#6689AD",

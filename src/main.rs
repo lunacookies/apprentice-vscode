@@ -275,7 +275,7 @@ impl Palette {
         light_aqua: 0x58b8b8,
         blue: 0x6689ad,
         light_blue: 0x90b0d1,
-        red: 0xff6a6a,
+        red: 0x996666,
         orange: 0xcc8800,
         ocre: 0x808070,
         yellow: 0xfaf4c6,
