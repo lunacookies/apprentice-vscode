@@ -179,6 +179,8 @@ fn editor(t: &mut ThemeBuilder, p: &Palette) {
 
     t.a([s("comment"), tm("comment")], p.light_grey);
 
+    t.a([s("punctuation")], p.lighter_grey);
+
     t.a([tm("entity.name.tag"), tm("punctuation.definition.tag")], p.light_blue);
     t.a([tm("entity.other.attribute-name")], p.light_purple);
 

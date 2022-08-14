@@ -316,6 +316,9 @@
         "comment": {
             "foreground": "#6C6C6C"
         },
+        "punctuation": {
+            "foreground": "#C2C2B0"
+        },
         "unresolvedReference": {
             "foreground": "#C2C2B0"
         }
