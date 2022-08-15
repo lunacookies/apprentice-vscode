@@ -340,6 +340,7 @@
         "editorLineNumber.foreground": "#6C6C6C",
         "editorLineNumber.activeForeground": "#5FAFAF",
         "editor.lineHighlightBackground": "#303030",
+        "editor.selectionBackground": "#444444",
         "list.activeSelectionForeground": "#262626",
         "list.focusHighlightForeground": "#1C1C1C",
         "list.highlightForeground": "#BCBCBC",

@@ -36,6 +36,8 @@ fn ui(t: &mut ThemeBuilder, p: &Palette) {
 
     t.w(["editor.lineHighlightBackground"], p.dark_grey);
 
+    t.w(["editor.selectionBackground"], p.grey);
+
     t.w(["list.activeSelectionForeground"], p.darker_grey);
     t.w(["list.focusHighlightForeground"], p.almost_black);
     t.w(["list.highlightForeground"], p.lighter_grey);
